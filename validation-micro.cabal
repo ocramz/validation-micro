@@ -1,7 +1,17 @@
 name:                validation-micro
 version:             0.1.0.0
--- synopsis:
--- description:
+synopsis:            Lighweight pure data validation based on Applicative
+description:
+    Lighweight pure data validation based on Applicative. The library provides the
+    following Either-like data type with suitable instances like Semigroup to accumulate validation errors in the `Failure` branch :
+    .
+    @
+    __data__ Validation e a
+    \    = Failure e
+    \    | Success a
+    @
+    .
+
 homepage:            https://github.com/unfoldml/validation-micro
 license:             BSD3
 license-file:        LICENSE
@@ -12,6 +22,7 @@ category:            Validation
 build-type:          Simple
 extra-source-files:  README.md
                      CHANGELOG.md
+                     LICENSE
 cabal-version:       >=1.10
 tested-with:         GHC == 9.2.8
 

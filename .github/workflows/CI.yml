@@ -1,0 +1,26 @@
+name: validation-micro-CI
+
+on:
+  push:
+    branches: [ '*' ]
+  pull_request:
+    branches: [ master ]
+
+defaults: { run: { shell: bash } }
+
+jobs:
+  build:
+    name: stackage ${{ matrix.stack-resolver }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        stack-resolver: ['lts-14.27', 'lts-16.31', 'lts-18.28', 'lts-19.33', 'lts-20.24']
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v3
+      - name: Setup compiler, build and test
+        run: |
+          stack build --resolver ${{ matrix.stack-resolver }}
+          stack test

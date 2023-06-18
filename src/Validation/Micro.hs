@@ -5,10 +5,11 @@
 {-# language LambdaCase #-}
 
 {- |
-Copyright:  (c) 2014 Chris Allen, Edward Kmett
+Copyright:  (c) 2014 Chris Allen
+            (c) 2014 Edward Kmett
             (c) 2018-2023 Kowainik
-            (c) 2023- Marco Zocca, UnfoldML
-SPDX-License-Identifier: MPL-2.0
+            (c) 2023 Marco Zocca, UnfoldML
+SPDX-License-Identifier: BSD-3-Clause
 Maintainer:  oss@unfoldml.com
 Stability:   Stable
 Portability: Portable
@@ -70,6 +71,7 @@ module Validation.Micro (
        , partitionValidations
        , fromFailure
        , fromSuccess
+       , bindValidation
 
          -- ** 'NonEmpty' combinators
          -- $nonEmptyCombinators
