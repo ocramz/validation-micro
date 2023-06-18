@@ -1,6 +1,6 @@
 # validation-micro
 
-[![GitHub CI](https://github.com/ocramz/validation-micro/workflows/CI/badge.svg)](https://github.com/ocramz/validation-micro/actions)
+[![CI](https://github.com/ocramz/validation-micro/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/ocramz/validation-micro/actions/workflows/CI.yml)
 
 
 [![Hackage](https://img.shields.io/hackage/v/validation-micro.svg?logo=haskell)](https://hackage.haskell.org/package/validation-micro)
