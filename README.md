@@ -2,6 +2,10 @@
 
 [![GitHub CI](https://github.com/ocramz/validation-micro/workflows/CI/badge.svg)](https://github.com/ocramz/validation-micro/actions)
 
+
+[![Hackage](https://img.shields.io/hackage/v/validation-micro.svg?logo=haskell)](https://hackage.haskell.org/package/validation-micro)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 Lightweight pure data validation based on `Applicative` .
 
 `validation-micro` is built around the following data type:
