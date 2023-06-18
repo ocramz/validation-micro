@@ -8,6 +8,10 @@ and this project adheres to the
 
 ## Unreleased
 
+## 1.0.0.0
+
+Stable
+
 ## 0.1.0.0
 
 First version

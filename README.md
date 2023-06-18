@@ -1,6 +1,6 @@
 # validation-micro
 
-[![GitHub CI](https://github.com/unfoldml/validation-micro/workflows/CI/badge.svg)](https://github.com/unfoldml/validation-micro/actions)
+[![GitHub CI](https://github.com/ocramz/validation-micro/workflows/CI/badge.svg)](https://github.com/ocramz/validation-micro/actions)
 
 Lightweight pure data validation based on `Applicative` .
 
@@ -33,6 +33,6 @@ Here are some differences and commonalities to other validation packages:
 
 Copyright:  (c) 2014 Chris Allen, Edward Kmett
             (c) 2018-2023 Kowainik
-            (c) 2023 Marco Zocca, UnfoldML
+            (c) 2023 Marco Zocca
 License: BSD3
 Maintainer:  oss@unfoldml.com
